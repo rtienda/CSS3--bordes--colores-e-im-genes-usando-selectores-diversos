@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           margin: 0px;
+        }
+        #imagen{
+            box-sizing: border-box;
+            background-color: pink;
+            background-image: url("KimiNoNawaBackGround.webp");
+            
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 0%;
+
+            border-radius: 5%;
+            border: solid;
+            border-color: black;
+            border-width: 2px;
+            width: 50vw;
+            height: 50vh;
+
+            margin-left: 25vw;
+            margin-right: 25vw;
+
+
+
+
+           
+            /* background-size: cover; */
+            /* background-position: center center; */
+            /* background-size:contain; */
+            /* background-origin:padding-box; */
+            /* resize: both; */
+         
+            
+            /* background-image:  ; */
+
+            /* background-position: enter calc(100% - 20px) ; */
+            /* background-position: calc(100% - 20px) center; */
+
+            /* background-position: center; */
+            /* background-image: content-box; */
+          
+
+
+
+        }
+        #imagen:hover{
+          
+            
+            background-origin: content-box;
+            background-size: 100% 100%;
+            /* background-position: center center; */
+            /* background-image: content-box; */
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+      
+        }
+        #imagen:active{
+
+            width: 30vw;
+            margin-left: 35vw;
+            margin-right: 35vw;
+
+            /*column-count
+            */
+        }
+        #texto{
+            background-color: lightblue;
+            padding: 0%;
+            width: 90vw;
+            height: 40vh;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p{
+            padding: 0%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        div:hover p::first-letter{
+            font-weight: bold;
+        }
+        div:active p:last-of-type{
+            color: crimson;
+            background-color: black;
+        }
+        #texto:hover{
+            column-count: 3;
+            height: 30vh;
+        }
+
+        /*
+        content box background para ver el padding
+        */
+    </style>
+    
+</head>
+<body>
+    <div id="imagen"></div>
+    <div id="texto">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam eaque tenetur voluptates? 
+        Exercitationem saepe, repellat ipsa veniam quidem beatae impedit distinctio dignissimos. Nemo saepe,
+         blanditiis cupiditate delectus iure exercitationem!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam eaque tenetur voluptates? 
+            Exercitationem saepe, repellat ipsa veniam quidem beatae impedit distinctio dignissimos. Nemo saepe,
+             blanditiis cupiditate delectus iure exercitationem!</p>
+        <br>    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam eaque tenetur voluptates? 
+                Exercitationem saepe, repellat ipsa veniam quidem beatae impedit distinctio dignissimos. Nemo saepe,
+                 blanditiis cupiditate delectus iure exercitationem!</p>
+        <br>        
+    </div>
+ 
+</body>
+</html>
